@@ -1,0 +1,687 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PoleConfiguration>
+  <TarFrequency>1</TarFrequency>
+  <ApplianceList>
+  <Appliance Guid="ef63cefd-b5fa-4a63-9726-3fd3bf37af89" Name="COMESS1 Server" />
+  <Appliance Guid="894b8eda-8e28-45a1-9d68-100000000001" Name="VMS-100000000001">
+    <Pole Name="Pole-1">
+      <Channels>1,2,3,4,5,6,7,8,9</Channels>
+    </Pole>
+    <Pole Name="Pole-2">
+      <Channels>10,11,12,13,14,15,16,17,18</Channels>
+    </Pole>
+    <Pole Name="Pole-3">
+      <Channels>19,20,21,22,23,24,25,26,27</Channels>
+    </Pole>
+    <Pole Name="Pole-4">
+      <Channels>28,29,30,31,32,33,34,35,36</Channels>
+    </Pole>
+    <Pole Name="Pole-5">
+      <Channels>37,38,39,40,41,42,43,44,45</Channels>
+    </Pole>
+    <Pole Name="Pole-6">
+      <Channels>46,47,48,49,50,51,52,53,54</Channels>
+    </Pole>
+  </Appliance>
+  <Appliance Guid="894b8eda-8e28-45a1-9d68-100000000002" Name="VMS-100000000002">
+    <Pole Name="Pole-1">
+      <Channels>1,2,3,4,5,6,7,8,9</Channels>
+    </Pole>
+    <Pole Name="Pole-2">
+      <Channels>10,11,12,13,14,15,16,17,18</Channels>
+    </Pole>
+    <Pole Name="Pole-3">
+      <Channels>19,20,21,22,23,24,25,26,27</Channels>
+    </Pole>
+    <Pole Name="Pole-4">
+      <Channels>28,29,30,31,32,33,34,35,36</Channels>
+    </Pole>
+    <Pole Name="Pole-5">
+      <Channels>37,38,39,40,41,42,43,44,45</Channels>
+    </Pole>
+    <Pole Name="Pole-6">
+      <Channels>46,47,48,49,50,51,52,53,54</Channels>
+    </Pole>
+  </Appliance>
+  <Appliance Guid="894b8eda-8e28-45a1-9d68-100000000003" Name="VMS-100000000003">
+    <Pole Name="Pole-1">
+      <Channels>1,2,3,4,5,6,7,8,9</Channels>
+    </Pole>
+    <Pole Name="Pole-2">
+      <Channels>10,11,12,13,14,15,16,17,18</Channels>
+    </Pole>
+    <Pole Name="Pole-3">
+      <Channels>19,20,21,22,23,24,25,26,27</Channels>
+    </Pole>
+    <Pole Name="Pole-4">
+      <Channels>28,29,30,31,32,33,34,35,36</Channels>
+    </Pole>
+    <Pole Name="Pole-5">
+      <Channels>37,38,39,40,41,42,43,44,45</Channels>
+    </Pole>
+    <Pole Name="Pole-6">
+      <Channels>46,47,48,49,50,51,52,53,54</Channels>
+    </Pole>
+  </Appliance>
+  <Appliance Guid="894b8eda-8e28-45a1-9d68-100000000004" Name="VMS-100000000004">
+    <Pole Name="Pole-1">
+      <Channels>1,2,3,4,5,6,7,8,9</Channels>
+    </Pole>
+    <Pole Name="Pole-2">
+      <Channels>10,11,12,13,14,15,16,17,18</Channels>
+    </Pole>
+    <Pole Name="Pole-3">
+      <Channels>19,20,21,22,23,24,25,26,27</Channels>
+    </Pole>
+    <Pole Name="Pole-4">
+      <Channels>28,29,30,31,32,33,34,35,36</Channels>
+    </Pole>
+    <Pole Name="Pole-5">
+      <Channels>37,38,39,40,41,42,43,44,45</Channels>
+    </Pole>
+    <Pole Name="Pole-6">
+      <Channels>46,47,48,49,50,51,52,53,54</Channels>
+    </Pole>
+  </Appliance>
+  <Appliance Guid="894b8eda-8e28-45a1-9d68-100000000005" Name="VMS-100000000005">
+    <Pole Name="Pole-1">
+      <Channels>1,2,3,4,5,6,7,8,9</Channels>
+    </Pole>
+    <Pole Name="Pole-2">
+      <Channels>10,11,12,13,14,15,16,17,18</Channels>
+    </Pole>
+    <Pole Name="Pole-3">
+      <Channels>19,20,21,22,23,24,25,26,27</Channels>
+    </Pole>
+    <Pole Name="Pole-4">
+      <Channels>28,29,30,31,32,33,34,35,36</Channels>
+    </Pole>
+    <Pole Name="Pole-5">
+      <Channels>37,38,39,40,41,42,43,44,45</Channels>
+    </Pole>
+    <Pole Name="Pole-6">
+      <Channels>46,47,48,49,50,51,52,53,54</Channels>
+    </Pole>
+  </Appliance>
+  <Appliance Guid="894b8eda-8e28-45a1-9d68-100000000006" Name="VMS-100000000006">
+    <Pole Name="Pole-1">
+      <Channels>1,2,3,4,5,6,7,8,9</Channels>
+    </Pole>
+    <Pole Name="Pole-2">
+      <Channels>10,11,12,13,14,15,16,17,18</Channels>
+    </Pole>
+    <Pole Name="Pole-3">
+      <Channels>19,20,21,22,23,24,25,26,27</Channels>
+    </Pole>
+    <Pole Name="Pole-4">
+      <Channels>28,29,30,31,32,33,34,35,36</Channels>
+    </Pole>
+    <Pole Name="Pole-5">
+      <Channels>37,38,39,40,41,42,43,44,45</Channels>
+    </Pole>
+    <Pole Name="Pole-6">
+      <Channels>46,47,48,49,50,51,52,53,54</Channels>
+    </Pole>
+  </Appliance>
+  <Appliance Guid="894b8eda-8e28-45a1-9d68-100000000007" Name="VMS-100000000007">
+    <Pole Name="Pole-1">
+      <Channels>1,2,3,4,5,6,7,8,9</Channels>
+    </Pole>
+    <Pole Name="Pole-2">
+      <Channels>10,11,12,13,14,15,16,17,18</Channels>
+    </Pole>
+    <Pole Name="Pole-3">
+      <Channels>19,20,21,22,23,24,25,26,27</Channels>
+    </Pole>
+    <Pole Name="Pole-4">
+      <Channels>28,29,30,31,32,33,34,35,36</Channels>
+    </Pole>
+    <Pole Name="Pole-5">
+      <Channels>37,38,39,40,41,42,43,44,45</Channels>
+    </Pole>
+    <Pole Name="Pole-6">
+      <Channels>46,47,48,49,50,51,52,53,54</Channels>
+    </Pole>
+  </Appliance>
+  <Appliance Guid="894b8eda-8e28-45a1-9d68-100000000008" Name="VMS-100000000008">
+    <Pole Name="Pole-1">
+      <Channels>1,2,3,4,5,6,7,8,9</Channels>
+    </Pole>
+    <Pole Name="Pole-2">
+      <Channels>10,11,12,13,14,15,16,17,18</Channels>
+    </Pole>
+    <Pole Name="Pole-3">
+      <Channels>19,20,21,22,23,24,25,26,27</Channels>
+    </Pole>
+    <Pole Name="Pole-4">
+      <Channels>28,29,30,31,32,33,34,35,36</Channels>
+    </Pole>
+    <Pole Name="Pole-5">
+      <Channels>37,38,39,40,41,42,43,44,45</Channels>
+    </Pole>
+    <Pole Name="Pole-6">
+      <Channels>46,47,48,49,50,51,52,53,54</Channels>
+    </Pole>
+  </Appliance>
+  <Appliance Guid="894b8eda-8e28-45a1-9d68-100000000009" Name="VMS-100000000009">
+    <Pole Name="Pole-1">
+      <Channels>1,2,3,4,5,6,7,8,9</Channels>
+    </Pole>
+    <Pole Name="Pole-2">
+      <Channels>10,11,12,13,14,15,16,17,18</Channels>
+    </Pole>
+    <Pole Name="Pole-3">
+      <Channels>19,20,21,22,23,24,25,26,27</Channels>
+    </Pole>
+    <Pole Name="Pole-4">
+      <Channels>28,29,30,31,32,33,34,35,36</Channels>
+    </Pole>
+    <Pole Name="Pole-5">
+      <Channels>37,38,39,40,41,42,43,44,45</Channels>
+    </Pole>
+    <Pole Name="Pole-6">
+      <Channels>46,47,48,49,50,51,52,53,54</Channels>
+    </Pole>
+  </Appliance>
+  <Appliance Guid="894b8eda-8e28-45a1-9d68-100000000010" Name="VMS-100000000010">
+    <Pole Name="Pole-1">
+      <Channels>1,2,3,4,5,6,7,8,9</Channels>
+    </Pole>
+    <Pole Name="Pole-2">
+      <Channels>10,11,12,13,14,15,16,17,18</Channels>
+    </Pole>
+    <Pole Name="Pole-3">
+      <Channels>19,20,21,22,23,24,25,26,27</Channels>
+    </Pole>
+    <Pole Name="Pole-4">
+      <Channels>28,29,30,31,32,33,34,35,36</Channels>
+    </Pole>
+    <Pole Name="Pole-5">
+      <Channels>37,38,39,40,41,42,43,44,45</Channels>
+    </Pole>
+    <Pole Name="Pole-6">
+      <Channels>46,47,48,49,50,51,52,53,54</Channels>
+    </Pole>
+  </Appliance>
+  <Appliance Guid="894b8eda-8e28-45a1-9d68-100000000011" Name="VMS-100000000011">
+    <Pole Name="Pole-1">
+      <Channels>1,2,3,4,5,6,7,8,9</Channels>
+    </Pole>
+    <Pole Name="Pole-2">
+      <Channels>10,11,12,13,14,15,16,17,18</Channels>
+    </Pole>
+    <Pole Name="Pole-3">
+      <Channels>19,20,21,22,23,24,25,26,27</Channels>
+    </Pole>
+    <Pole Name="Pole-4">
+      <Channels>28,29,30,31,32,33,34,35,36</Channels>
+    </Pole>
+    <Pole Name="Pole-5">
+      <Channels>37,38,39,40,41,42,43,44,45</Channels>
+    </Pole>
+    <Pole Name="Pole-6">
+      <Channels>46,47,48,49,50,51,52,53,54</Channels>
+    </Pole>
+  </Appliance>
+  <Appliance Guid="894b8eda-8e28-45a1-9d68-100000000012" Name="VMS-100000000012">
+    <Pole Name="Pole-1">
+      <Channels>1,2,3,4,5,6,7,8,9</Channels>
+    </Pole>
+    <Pole Name="Pole-2">
+      <Channels>10,11,12,13,14,15,16,17,18</Channels>
+    </Pole>
+    <Pole Name="Pole-3">
+      <Channels>19,20,21,22,23,24,25,26,27</Channels>
+    </Pole>
+    <Pole Name="Pole-4">
+      <Channels>28,29,30,31,32,33,34,35,36</Channels>
+    </Pole>
+    <Pole Name="Pole-5">
+      <Channels>37,38,39,40,41,42,43,44,45</Channels>
+    </Pole>
+    <Pole Name="Pole-6">
+      <Channels>46,47,48,49,50,51,52,53,54</Channels>
+    </Pole>
+  </Appliance>
+  <Appliance Guid="894b8eda-8e28-45a1-9d68-100000000013" Name="VMS-100000000013">
+    <Pole Name="Pole-1">
+      <Channels>1,2,3,4,5,6,7,8,9</Channels>
+    </Pole>
+    <Pole Name="Pole-2">
+      <Channels>10,11,12,13,14,15,16,17,18</Channels>
+    </Pole>
+    <Pole Name="Pole-3">
+      <Channels>19,20,21,22,23,24,25,26,27</Channels>
+    </Pole>
+    <Pole Name="Pole-4">
+      <Channels>28,29,30,31,32,33,34,35,36</Channels>
+    </Pole>
+    <Pole Name="Pole-5">
+      <Channels>37,38,39,40,41,42,43,44,45</Channels>
+    </Pole>
+    <Pole Name="Pole-6">
+      <Channels>46,47,48,49,50,51,52,53,54</Channels>
+    </Pole>
+  </Appliance>
+  <Appliance Guid="894b8eda-8e28-45a1-9d68-100000000014" Name="VMS-100000000014">
+    <Pole Name="Pole-1">
+      <Channels>1,2,3,4,5,6,7,8,9</Channels>
+    </Pole>
+    <Pole Name="Pole-2">
+      <Channels>10,11,12,13,14,15,16,17,18</Channels>
+    </Pole>
+    <Pole Name="Pole-3">
+      <Channels>19,20,21,22,23,24,25,26,27</Channels>
+    </Pole>
+    <Pole Name="Pole-4">
+      <Channels>28,29,30,31,32,33,34,35,36</Channels>
+    </Pole>
+    <Pole Name="Pole-5">
+      <Channels>37,38,39,40,41,42,43,44,45</Channels>
+    </Pole>
+    <Pole Name="Pole-6">
+      <Channels>46,47,48,49,50,51,52,53,54</Channels>
+    </Pole>
+  </Appliance>
+  <Appliance Guid="894b8eda-8e28-45a1-9d68-100000000015" Name="VMS-100000000015">
+    <Pole Name="Pole-1">
+      <Channels>1,2,3,4,5,6,7,8,9</Channels>
+    </Pole>
+    <Pole Name="Pole-2">
+      <Channels>10,11,12,13,14,15,16,17,18</Channels>
+    </Pole>
+    <Pole Name="Pole-3">
+      <Channels>19,20,21,22,23,24,25,26,27</Channels>
+    </Pole>
+    <Pole Name="Pole-4">
+      <Channels>28,29,30,31,32,33,34,35,36</Channels>
+    </Pole>
+    <Pole Name="Pole-5">
+      <Channels>37,38,39,40,41,42,43,44,45</Channels>
+    </Pole>
+    <Pole Name="Pole-6">
+      <Channels>46,47,48,49,50,51,52,53,54</Channels>
+    </Pole>
+  </Appliance>
+  <Appliance Guid="894b8eda-8e28-45a1-9d68-100000000016" Name="VMS-100000000016">
+    <Pole Name="Pole-1">
+      <Channels>1,2,3,4,5,6,7,8,9</Channels>
+    </Pole>
+    <Pole Name="Pole-2">
+      <Channels>10,11,12,13,14,15,16,17,18</Channels>
+    </Pole>
+    <Pole Name="Pole-3">
+      <Channels>19,20,21,22,23,24,25,26,27</Channels>
+    </Pole>
+    <Pole Name="Pole-4">
+      <Channels>28,29,30,31,32,33,34,35,36</Channels>
+    </Pole>
+    <Pole Name="Pole-5">
+      <Channels>37,38,39,40,41,42,43,44,45</Channels>
+    </Pole>
+    <Pole Name="Pole-6">
+      <Channels>46,47,48,49,50,51,52,53,54</Channels>
+    </Pole>
+  </Appliance>
+  <Appliance Guid="894b8eda-8e28-45a1-9d68-100000000017" Name="VMS-100000000017">
+    <Pole Name="Pole-1">
+      <Channels>1,2,3,4,5,6,7,8,9</Channels>
+    </Pole>
+    <Pole Name="Pole-2">
+      <Channels>10,11,12,13,14,15,16,17,18</Channels>
+    </Pole>
+    <Pole Name="Pole-3">
+      <Channels>19,20,21,22,23,24,25,26,27</Channels>
+    </Pole>
+    <Pole Name="Pole-4">
+      <Channels>28,29,30,31,32,33,34,35,36</Channels>
+    </Pole>
+    <Pole Name="Pole-5">
+      <Channels>37,38,39,40,41,42,43,44,45</Channels>
+    </Pole>
+    <Pole Name="Pole-6">
+      <Channels>46,47,48,49,50,51,52,53,54</Channels>
+    </Pole>
+  </Appliance>
+  <Appliance Guid="994b8eda-8e28-45a1-9d68-100000000001" Name="VMS-100000000001">
+    <Pole Name="Pole-1">
+      <Channels>1,2,3,4,5,6,7,8,9</Channels>
+    </Pole>
+    <Pole Name="Pole-2">
+      <Channels>10,11,12,13,14,15,16,17,18</Channels>
+    </Pole>
+    <Pole Name="Pole-3">
+      <Channels>19,20,21,22,23,24,25,26,27</Channels>
+    </Pole>
+    <Pole Name="Pole-4">
+      <Channels>28,29,30,31,32,33,34,35,36</Channels>
+    </Pole>
+    <Pole Name="Pole-5">
+      <Channels>37,38,39,40,41,42,43,44,45</Channels>
+    </Pole>
+    <Pole Name="Pole-6">
+      <Channels>46,47,48,49,50,51,52,53,54</Channels>
+    </Pole>
+  </Appliance>
+  <Appliance Guid="994b8eda-8e28-45a1-9d68-100000000002" Name="VMS-100000000002">
+    <Pole Name="Pole-1">
+      <Channels>1,2,3,4,5,6,7,8,9</Channels>
+    </Pole>
+    <Pole Name="Pole-2">
+      <Channels>10,11,12,13,14,15,16,17,18</Channels>
+    </Pole>
+    <Pole Name="Pole-3">
+      <Channels>19,20,21,22,23,24,25,26,27</Channels>
+    </Pole>
+    <Pole Name="Pole-4">
+      <Channels>28,29,30,31,32,33,34,35,36</Channels>
+    </Pole>
+    <Pole Name="Pole-5">
+      <Channels>37,38,39,40,41,42,43,44,45</Channels>
+    </Pole>
+    <Pole Name="Pole-6">
+      <Channels>46,47,48,49,50,51,52,53,54</Channels>
+    </Pole>
+  </Appliance>
+  <Appliance Guid="994b8eda-8e28-45a1-9d68-100000000003" Name="VMS-100000000003">
+    <Pole Name="Pole-1">
+      <Channels>1,2,3,4,5,6,7,8,9</Channels>
+    </Pole>
+    <Pole Name="Pole-2">
+      <Channels>10,11,12,13,14,15,16,17,18</Channels>
+    </Pole>
+    <Pole Name="Pole-3">
+      <Channels>19,20,21,22,23,24,25,26,27</Channels>
+    </Pole>
+    <Pole Name="Pole-4">
+      <Channels>28,29,30,31,32,33,34,35,36</Channels>
+    </Pole>
+    <Pole Name="Pole-5">
+      <Channels>37,38,39,40,41,42,43,44,45</Channels>
+    </Pole>
+    <Pole Name="Pole-6">
+      <Channels>46,47,48,49,50,51,52,53,54</Channels>
+    </Pole>
+  </Appliance>
+  <Appliance Guid="994b8eda-8e28-45a1-9d68-100000000004" Name="VMS-100000000004">
+    <Pole Name="Pole-1">
+      <Channels>1,2,3,4,5,6,7,8,9</Channels>
+    </Pole>
+    <Pole Name="Pole-2">
+      <Channels>10,11,12,13,14,15,16,17,18</Channels>
+    </Pole>
+    <Pole Name="Pole-3">
+      <Channels>19,20,21,22,23,24,25,26,27</Channels>
+    </Pole>
+    <Pole Name="Pole-4">
+      <Channels>28,29,30,31,32,33,34,35,36</Channels>
+    </Pole>
+    <Pole Name="Pole-5">
+      <Channels>37,38,39,40,41,42,43,44,45</Channels>
+    </Pole>
+    <Pole Name="Pole-6">
+      <Channels>46,47,48,49,50,51,52,53,54</Channels>
+    </Pole>
+  </Appliance>
+  <Appliance Guid="994b8eda-8e28-45a1-9d68-100000000005" Name="VMS-100000000005">
+    <Pole Name="Pole-1">
+      <Channels>1,2,3,4,5,6,7,8,9</Channels>
+    </Pole>
+    <Pole Name="Pole-2">
+      <Channels>10,11,12,13,14,15,16,17,18</Channels>
+    </Pole>
+    <Pole Name="Pole-3">
+      <Channels>19,20,21,22,23,24,25,26,27</Channels>
+    </Pole>
+    <Pole Name="Pole-4">
+      <Channels>28,29,30,31,32,33,34,35,36</Channels>
+    </Pole>
+    <Pole Name="Pole-5">
+      <Channels>37,38,39,40,41,42,43,44,45</Channels>
+    </Pole>
+    <Pole Name="Pole-6">
+      <Channels>46,47,48,49,50,51,52,53,54</Channels>
+    </Pole>
+  </Appliance>
+  <Appliance Guid="994b8eda-8e28-45a1-9d68-100000000006" Name="VMS-100000000006">
+    <Pole Name="Pole-1">
+      <Channels>1,2,3,4,5,6,7,8,9</Channels>
+    </Pole>
+    <Pole Name="Pole-2">
+      <Channels>10,11,12,13,14,15,16,17,18</Channels>
+    </Pole>
+    <Pole Name="Pole-3">
+      <Channels>19,20,21,22,23,24,25,26,27</Channels>
+    </Pole>
+    <Pole Name="Pole-4">
+      <Channels>28,29,30,31,32,33,34,35,36</Channels>
+    </Pole>
+    <Pole Name="Pole-5">
+      <Channels>37,38,39,40,41,42,43,44,45</Channels>
+    </Pole>
+    <Pole Name="Pole-6">
+      <Channels>46,47,48,49,50,51,52,53,54</Channels>
+    </Pole>
+  </Appliance>
+  <Appliance Guid="994b8eda-8e28-45a1-9d68-100000000007" Name="VMS-100000000007">
+    <Pole Name="Pole-1">
+      <Channels>1,2,3,4,5,6,7,8,9</Channels>
+    </Pole>
+    <Pole Name="Pole-2">
+      <Channels>10,11,12,13,14,15,16,17,18</Channels>
+    </Pole>
+    <Pole Name="Pole-3">
+      <Channels>19,20,21,22,23,24,25,26,27</Channels>
+    </Pole>
+    <Pole Name="Pole-4">
+      <Channels>28,29,30,31,32,33,34,35,36</Channels>
+    </Pole>
+    <Pole Name="Pole-5">
+      <Channels>37,38,39,40,41,42,43,44,45</Channels>
+    </Pole>
+    <Pole Name="Pole-6">
+      <Channels>46,47,48,49,50,51,52,53,54</Channels>
+    </Pole>
+  </Appliance>
+  <Appliance Guid="994b8eda-8e28-45a1-9d68-100000000008" Name="VMS-100000000008">
+    <Pole Name="Pole-1">
+      <Channels>1,2,3,4,5,6,7,8,9</Channels>
+    </Pole>
+    <Pole Name="Pole-2">
+      <Channels>10,11,12,13,14,15,16,17,18</Channels>
+    </Pole>
+    <Pole Name="Pole-3">
+      <Channels>19,20,21,22,23,24,25,26,27</Channels>
+    </Pole>
+    <Pole Name="Pole-4">
+      <Channels>28,29,30,31,32,33,34,35,36</Channels>
+    </Pole>
+    <Pole Name="Pole-5">
+      <Channels>37,38,39,40,41,42,43,44,45</Channels>
+    </Pole>
+    <Pole Name="Pole-6">
+      <Channels>46,47,48,49,50,51,52,53,54</Channels>
+    </Pole>
+  </Appliance>
+  <Appliance Guid="994b8eda-8e28-45a1-9d68-100000000009" Name="VMS-100000000009">
+    <Pole Name="Pole-1">
+      <Channels>1,2,3,4,5,6,7,8,9</Channels>
+    </Pole>
+    <Pole Name="Pole-2">
+      <Channels>10,11,12,13,14,15,16,17,18</Channels>
+    </Pole>
+    <Pole Name="Pole-3">
+      <Channels>19,20,21,22,23,24,25,26,27</Channels>
+    </Pole>
+    <Pole Name="Pole-4">
+      <Channels>28,29,30,31,32,33,34,35,36</Channels>
+    </Pole>
+    <Pole Name="Pole-5">
+      <Channels>37,38,39,40,41,42,43,44,45</Channels>
+    </Pole>
+    <Pole Name="Pole-6">
+      <Channels>46,47,48,49,50,51,52,53,54</Channels>
+    </Pole>
+  </Appliance>
+  <Appliance Guid="994b8eda-8e28-45a1-9d68-100000000010" Name="VMS-100000000010">
+    <Pole Name="Pole-1">
+      <Channels>1,2,3,4,5,6,7,8,9</Channels>
+    </Pole>
+    <Pole Name="Pole-2">
+      <Channels>10,11,12,13,14,15,16,17,18</Channels>
+    </Pole>
+    <Pole Name="Pole-3">
+      <Channels>19,20,21,22,23,24,25,26,27</Channels>
+    </Pole>
+    <Pole Name="Pole-4">
+      <Channels>28,29,30,31,32,33,34,35,36</Channels>
+    </Pole>
+    <Pole Name="Pole-5">
+      <Channels>37,38,39,40,41,42,43,44,45</Channels>
+    </Pole>
+    <Pole Name="Pole-6">
+      <Channels>46,47,48,49,50,51,52,53,54</Channels>
+    </Pole>
+  </Appliance>
+  <Appliance Guid="994b8eda-8e28-45a1-9d68-100000000011" Name="VMS-100000000011">
+    <Pole Name="Pole-1">
+      <Channels>1,2,3,4,5,6,7,8,9</Channels>
+    </Pole>
+    <Pole Name="Pole-2">
+      <Channels>10,11,12,13,14,15,16,17,18</Channels>
+    </Pole>
+    <Pole Name="Pole-3">
+      <Channels>19,20,21,22,23,24,25,26,27</Channels>
+    </Pole>
+    <Pole Name="Pole-4">
+      <Channels>28,29,30,31,32,33,34,35,36</Channels>
+    </Pole>
+    <Pole Name="Pole-5">
+      <Channels>37,38,39,40,41,42,43,44,45</Channels>
+    </Pole>
+    <Pole Name="Pole-6">
+      <Channels>46,47,48,49,50,51,52,53,54</Channels>
+    </Pole>
+  </Appliance>
+  <Appliance Guid="994b8eda-8e28-45a1-9d68-100000000012" Name="VMS-100000000012">
+    <Pole Name="Pole-1">
+      <Channels>1,2,3,4,5,6,7,8,9</Channels>
+    </Pole>
+    <Pole Name="Pole-2">
+      <Channels>10,11,12,13,14,15,16,17,18</Channels>
+    </Pole>
+    <Pole Name="Pole-3">
+      <Channels>19,20,21,22,23,24,25,26,27</Channels>
+    </Pole>
+    <Pole Name="Pole-4">
+      <Channels>28,29,30,31,32,33,34,35,36</Channels>
+    </Pole>
+    <Pole Name="Pole-5">
+      <Channels>37,38,39,40,41,42,43,44,45</Channels>
+    </Pole>
+    <Pole Name="Pole-6">
+      <Channels>46,47,48,49,50,51,52,53,54</Channels>
+    </Pole>
+  </Appliance>
+  <Appliance Guid="994b8eda-8e28-45a1-9d68-100000000013" Name="VMS-100000000013">
+    <Pole Name="Pole-1">
+      <Channels>1,2,3,4,5,6,7,8,9</Channels>
+    </Pole>
+    <Pole Name="Pole-2">
+      <Channels>10,11,12,13,14,15,16,17,18</Channels>
+    </Pole>
+    <Pole Name="Pole-3">
+      <Channels>19,20,21,22,23,24,25,26,27</Channels>
+    </Pole>
+    <Pole Name="Pole-4">
+      <Channels>28,29,30,31,32,33,34,35,36</Channels>
+    </Pole>
+    <Pole Name="Pole-5">
+      <Channels>37,38,39,40,41,42,43,44,45</Channels>
+    </Pole>
+    <Pole Name="Pole-6">
+      <Channels>46,47,48,49,50,51,52,53,54</Channels>
+    </Pole>
+  </Appliance>
+  <Appliance Guid="994b8eda-8e28-45a1-9d68-100000000014" Name="VMS-100000000014">
+    <Pole Name="Pole-1">
+      <Channels>1,2,3,4,5,6,7,8,9</Channels>
+    </Pole>
+    <Pole Name="Pole-2">
+      <Channels>10,11,12,13,14,15,16,17,18</Channels>
+    </Pole>
+    <Pole Name="Pole-3">
+      <Channels>19,20,21,22,23,24,25,26,27</Channels>
+    </Pole>
+    <Pole Name="Pole-4">
+      <Channels>28,29,30,31,32,33,34,35,36</Channels>
+    </Pole>
+    <Pole Name="Pole-5">
+      <Channels>37,38,39,40,41,42,43,44,45</Channels>
+    </Pole>
+    <Pole Name="Pole-6">
+      <Channels>46,47,48,49,50,51,52,53,54</Channels>
+    </Pole>
+  </Appliance>
+  <Appliance Guid="994b8eda-8e28-45a1-9d68-100000000015" Name="VMS-100000000015">
+    <Pole Name="Pole-1">
+      <Channels>1,2,3,4,5,6,7,8,9</Channels>
+    </Pole>
+    <Pole Name="Pole-2">
+      <Channels>10,11,12,13,14,15,16,17,18</Channels>
+    </Pole>
+    <Pole Name="Pole-3">
+      <Channels>19,20,21,22,23,24,25,26,27</Channels>
+    </Pole>
+    <Pole Name="Pole-4">
+      <Channels>28,29,30,31,32,33,34,35,36</Channels>
+    </Pole>
+    <Pole Name="Pole-5">
+      <Channels>37,38,39,40,41,42,43,44,45</Channels>
+    </Pole>
+    <Pole Name="Pole-6">
+      <Channels>46,47,48,49,50,51,52,53,54</Channels>
+    </Pole>
+  </Appliance>
+  <Appliance Guid="994b8eda-8e28-45a1-9d68-100000000016" Name="VMS-100000000016">
+    <Pole Name="Pole-1">
+      <Channels>1,2,3,4,5,6,7,8,9</Channels>
+    </Pole>
+    <Pole Name="Pole-2">
+      <Channels>10,11,12,13,14,15,16,17,18</Channels>
+    </Pole>
+    <Pole Name="Pole-3">
+      <Channels>19,20,21,22,23,24,25,26,27</Channels>
+    </Pole>
+    <Pole Name="Pole-4">
+      <Channels>28,29,30,31,32,33,34,35,36</Channels>
+    </Pole>
+    <Pole Name="Pole-5">
+      <Channels>37,38,39,40,41,42,43,44,45</Channels>
+    </Pole>
+    <Pole Name="Pole-6">
+      <Channels>46,47,48,49,50,51,52,53,54</Channels>
+    </Pole>
+  </Appliance>
+  <Appliance Guid="994b8eda-8e28-45a1-9d68-100000000017" Name="VMS-100000000017">
+    <Pole Name="Pole-1">
+      <Channels>1,2,3,4,5,6,7,8,9</Channels>
+    </Pole>
+    <Pole Name="Pole-2">
+      <Channels>10,11,12,13,14,15,16,17,18</Channels>
+    </Pole>
+    <Pole Name="Pole-3">
+      <Channels>19,20,21,22,23,24,25,26,27</Channels>
+    </Pole>
+    <Pole Name="Pole-4">
+      <Channels>28,29,30,31,32,33,34,35,36</Channels>
+    </Pole>
+    <Pole Name="Pole-5">
+      <Channels>37,38,39,40,41,42,43,44,45</Channels>
+    </Pole>
+    <Pole Name="Pole-6">
+      <Channels>46,47,48,49,50,51,52,53,54</Channels>
+    </Pole>
+  </Appliance>
+  </ApplianceList>
+</PoleConfiguration>

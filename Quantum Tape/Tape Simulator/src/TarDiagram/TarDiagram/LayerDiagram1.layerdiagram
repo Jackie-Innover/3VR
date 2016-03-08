@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="cf0158bf-61b4-44dc-8066-35733084490b" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <comments>
+    <comment Id="8092f371-fa21-4207-91da-a0c724f06894" name="Comment1">
+      <layerElements>
+        <linkFromCommentToLayerElement>
+          <layerMoniker Id="8806ad38-a908-403c-bfab-26b45be74ea7" />
+        </linkFromCommentToLayerElement>
+      </layerElements>
+    </comment>
+  </comments>
+  <layers>
+    <layer Id="8806ad38-a908-403c-bfab-26b45be74ea7" name="Layer1">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="332839cb-41cf-40cc-b650-509895934170" direction="Forward">
+          <layerMoniker Id="2a030122-e43c-4aac-8e7c-21ef79ff61c8" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="d2b0566d-22d0-4447-a750-31baa3e29042" direction="Bidirectional">
+          <layerMoniker Id="2a030122-e43c-4aac-8e7c-21ef79ff61c8" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="2a030122-e43c-4aac-8e7c-21ef79ff61c8" name="Layer2" />
+  </layers>
+</layerModel>

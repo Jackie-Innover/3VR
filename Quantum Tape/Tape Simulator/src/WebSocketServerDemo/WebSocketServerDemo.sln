@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketServerDemo", "WebSocketServerDemo\WebSocketServerDemo.csproj", "{C1DB03B8-CB03-4522-B1C1-434F5F508D61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerLauncher", "ServerLauncher\ServerLauncher.csproj", "{F868E193-08AF-4E3A-AB0B-A677A1ADB3C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackupLib", "BackupLib\BackupLib.csproj", "{F8D6A36D-880E-4FD6-948C-4A1669F3886E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1DB03B8-CB03-4522-B1C1-434F5F508D61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1DB03B8-CB03-4522-B1C1-434F5F508D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1DB03B8-CB03-4522-B1C1-434F5F508D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1DB03B8-CB03-4522-B1C1-434F5F508D61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F868E193-08AF-4E3A-AB0B-A677A1ADB3C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F868E193-08AF-4E3A-AB0B-A677A1ADB3C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F868E193-08AF-4E3A-AB0B-A677A1ADB3C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F868E193-08AF-4E3A-AB0B-A677A1ADB3C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8D6A36D-880E-4FD6-948C-4A1669F3886E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8D6A36D-880E-4FD6-948C-4A1669F3886E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8D6A36D-880E-4FD6-948C-4A1669F3886E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8D6A36D-880E-4FD6-948C-4A1669F3886E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

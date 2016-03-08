@@ -1,0 +1,52 @@
+<project name="TapeSimulatorConsole" default="usage">
+
+  <loadfile property="assemblyInfo" file="${project::get-base-directory()}\Launcher\Properties\AssemblyInfo.cs"/>
+  
+  <property name="version" value="1.0" readonly="true"/>
+
+  <property name="ivy.publish.src.artifacts.pattern" value="[artifact].[ext]"/>
+
+  <property name="platform" value="Any CPU"/>
+
+  <get dest="${project::get-base-directory()}\common.xml" src="http://dependencies.3vr.net/ivy-settings/common.build" usetimestamp="true"/>
+  <include buildfile="${project::get-base-directory()}\common.xml" />
+
+  <property name="proj" value="${project::get-base-directory()}\TapeSimulatorConsole.sln" readonly="true"/>
+  <property name="tempDir" value="${project::get-base-directory()}\tmp" readonly="false"/>
+  <property name="msbuildExe" value="${environment::get-variable('SYSTEMROOT')}\Microsoft.Net\Framework\v4.0.30319\msbuild.exe" readonly="true"/>
+
+  <target name="retrieve" depends="get-ivy-settings">
+    <mkdir dir="${tempDir}"/>
+    <echo>##[Getting Build Dependencies...</echo>
+    <exec program="java.exe">
+      <arg line="-jar ${ivy-jar} -settings ${ivysettings} -ivy ivy.xml -confs default -retrieve ${tempDir}\[artifact].[ext]"/>
+    </exec>
+		
+    <unzip zipfile="${tempDir}\artifacts.zip" todir="${tempDir}"/>
+    <delete file="${tempDir}\artifacts.zip"/>   
+    <delete dir="${tempDir}"/>
+    <echo>##]Getting Build Dependencies...</echo>
+  </target>
+  
+ 
+  <target name="build">
+    <echo>##teamcity[progressStart 'Building']</echo>
+    <exec program="${msbuildExe}">
+      <arg line="${proj} /p:Configuration=${configuration}  /p:Platform=&quot;${platform}&quot;"/>
+    </exec>
+    <echo>##teamcity[progressFinish 'Building done']</echo>
+  </target>
+
+  <target name="stage">
+    <zip zipfile="${project::get-base-directory()}\TapeSimulatorConsole-${version}.zip">
+      <fileset basedir="${project::get-base-directory()}\Launcher\bin\${configuration}" >
+        <include name="**/*" />
+      </fileset>
+    </zip>
+  </target>
+
+  <target name="package">
+    <copy file="${project::get-base-directory()}\TapeSimulatorConsole-${version}.zip" tofile="../artifacts/TapeSimulatorConsole-${version}.zip"/>
+  </target>
+	
+</project>

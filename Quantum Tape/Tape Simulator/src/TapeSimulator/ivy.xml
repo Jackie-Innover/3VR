@@ -1,0 +1,13 @@
+<ivy-module version="2.0">
+  <info organisation="3vr" module="TapeSimulatorConsole">
+    <description>
+      Used to pull in the necessary files to build TapeSimulatorConsole.
+    </description>
+  </info>
+  <publications>
+    <artifact name="TapeSimulatorConsole" type="zip"/>
+  </publications>
+  <dependencies defaultconf="default">
+        <dependency org="3vr" name="vims" rev="7.3-develop-SNAPSHOT" conf="default->artifacts"/>
+  </dependencies>
+</ivy-module>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TapeSimulatorConfig>
+
+  <ExtendedStorageServerDetails>
+    <!-- Extended Storage Server host address-->
+    <Host>127.0.0.1</Host>
+    <!-- Extended Storage Server used port-->
+    <Port>24042</Port>
+    <!-- UserName used to connect to Extended Storage Server-->
+    <UserName>techrep</UserName>
+    <!-- Password used to connect to Extended Storage Server-->
+    <Password>3MeDeee</Password>
+  </ExtendedStorageServerDetails>
+
+  <!-- Please make sure different simulator launcher use different client base GUID-->
+  <ClientBaseGuid>894B8EDA-8E28-45A1-9D68-</ClientBaseGuid>
+
+  <TapeSimulatorDetails>
+    <!-- Total times per minute send video file to Extended Storage Server-->
+    <SendTimesPerMinute>90</SendTimesPerMinute>
+    <!-- The file name or file path of file will send to Extended Storage Server-->
+    <VideoFilePath>demo.avi</VideoFilePath>
+    <!-- Fake Channel count-->
+    <ChannelCount>54</ChannelCount>
+    <!-- If set to True, ESS will write received data to Disk, otherwise, will not write to disk. -->
+    <!--<IsWriteToDisk>False</IsWriteToDisk> if do not write data to disk, create notwritetodisk.txt in unmanaged folder.-->
+
+    <!-- Transfer block size, default is 512, means: every package size is 512kB -->
+    <TransferBlockSize>512</TransferBlockSize>
+    
+    <IsDirectConnectToESS>False</IsDirectConnectToESS>
+    
+  </TapeSimulatorDetails>
+
+</TapeSimulatorConfig>
