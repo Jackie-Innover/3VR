@@ -1,0 +1,10 @@
+http://192.168.200.182/v2/file/fsfileinfo?file=test.tar&format=json&username=jackie&password=jackie
+
+
+http://192.168.200.182/v2/file/fsfileinfo?file=/2016_02_02/00008eda-8e28-45a1-9d68-100000000001_2016_02_02_10_pole0.00.tar&format=json&username=jackie&password=jackie
+
+
+http://192.168.200.182/v2/file/fsretrieve/new?file=2016_02_02/00008eda-8e28-45a1-9d68-100000000001_2016_02_02_10_pole0.00.tar&newfile=jackieDemo.tar&username=jackie&password=jackie&format=json
+
+
+http://192.168.200.182/v2/file/drivecheck?filename=2016_02_02/00008eda-8e28-45a1-9d68-100000000001_2016_02_02_10_pole0.00.tar
