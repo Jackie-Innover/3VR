@@ -1,0 +1,26 @@
+https://10.10.1.223/sws/v2/media/vsmedqry?media=000001&format=json
+
+Exit Code: 0
+Output: 
+
+----------------------------------------------------------------------------
+Media Query Report         23-Mar-2016 00:21:59                  1
+----------------------------------------------------------------------------
+
+
+Media ID:  000001
+----------------------------------------------------------------------------
+        Media Type:  LTO
+       Media Class:  F0_LTO_MIGRATE
+        Assignment:  Free
+    Location State:  Archive
+   Current Archive:  Archive1
+   Pending Archive:  
+      Action State:  None
+       Import Date:  11-Feb-2015 17:13:38
+       Last Access:  02-Mar-2016 21:33:58
+       Mount Count:  437
+        Move Count:  874
+      Manufacturer:  
+             Batch:  
+     Current State:  On-line

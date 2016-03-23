@@ -1,0 +1,39 @@
+https://10.10.1.223/sws/v2/archive/vsarchiveqry?archive=Archive1&format=json
+
+{
+	"header": {
+		"commandName": "vsarchiveqry",
+		"commandLine": "/usr/adic/MSM/clibin/vsarchiveqry Archive1 -F json",
+		"commandDescription": "Queries for information about an archive.",
+		"localDateISO": "2016-03-23T00:19:06",
+		"localDate": "2016-03-23",
+		"localTime": "00:19:06",
+		"localDayOfWeek": 3,
+		"gmtDateISO": "2016-03-23T07:19:06Z",
+		"gmtDate": "2016-03-23",
+		"gmtTime": "07:19:06",
+		"gmtDayOfWeek": 3
+	},
+	"archives": [
+		{
+			"archiveName": "Archive1",
+			"archiveType": "SCSI",
+			"archiveState": "On-line",
+			"archiveMode": "Attended",
+			"fillMode": "None",
+			"configState": "Not Being Configured"
+		}
+	],
+	"footer": {
+		"returnCode": 0,
+		"localDateISOEnd": "2016-03-23T00:19:06",
+		"localDateEnd": "2016-03-23",
+		"localTimeEnd": "00:19:06",
+		"localDayOfWeekEnd": 3,
+		"gmtDateISOEnd": "2016-03-23T07:19:06Z",
+		"gmtDateEnd": "2016-03-23",
+		"gmtTimeEnd": "07:19:06",
+		"gmtDayOfWeekEnd": 3,
+		"elapsedTimeInSeconds": "0.0025"
+	}
+}

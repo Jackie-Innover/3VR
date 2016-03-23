@@ -1,0 +1,83 @@
+https://10.10.1.223/sws/v2/file/fsfileinfo?file=//stornext/3VR_archive/Managed/test.txt&format=json
+
+{
+	"header": {
+		"commandName": "fsfileinfo",
+		"commandLine": "/usr/adic/TSM/bin/fsfileinfo -F json //stornext/3VR_archive/Managed/test.txt",
+		"commandDescription": "Generate a report about files known to the Tertiary Manager",
+		"localDateISO": "2016-03-23T00:15:36",
+		"localDate": "2016-03-23",
+		"localTime": "00:15:36",
+		"localDayOfWeek": 3,
+		"gmtDateISO": "2016-03-23T07:15:36Z",
+		"gmtDate": "2016-03-23",
+		"gmtTime": "07:15:36",
+		"gmtDayOfWeek": 3
+	},
+	"fileInfos": [
+		{
+			"fileName": "/stornext/3VR_archive/Managed/test.txt",
+			"storedPathFileName": "/stornext/3VR_archive/Managed/test.txt",
+			"storedPathSameAsFileName": true,
+			"lastModificationDateString": "19-may-2015 02:03:17",
+			"lastModificationDate": "2015-05-19",
+			"lastModificationDayOfWeek": 2,
+			"lastModificationTime": "02:03:17",
+			"owner": "unknown",
+			"location": "DISK AND ARCHIVE",
+			"group": "unknown",
+			"existingCopies": 1,
+			"access": 644,
+			"targetCopies": 1,
+			"targetStubSize": 0,
+			"targetStubScale": 1024,
+			"existingStubSize": "n/a",
+			"fileSize": 34,
+			"store": "MINTIME",
+			"affinity": "n/a",
+			"reloc": "MINTIME",
+			"class": "managed_files",
+			"trunc": "IMMEDIATE",
+			"cleanDBInfo": "NO",
+			"altStoreLocation": "Disabled",
+			"medias": [
+				{ "mediaId": "000001", "copy": 1 }
+			],
+			"checksums": [
+				{ "summary": "N" }
+			],
+			"encryptions": [
+				{ "summary": "N" }
+			],
+			"compressions": [
+				{ "summary": "N" }
+			],
+			"objects": [
+				{ "summary": "N" }
+			]
+		}
+	],
+	"statuses": [
+		{
+			"statusCode": "FS0000",
+			"statusNumber": 0,
+			"dayOfMonth": 23,
+			"requestId": "00874",
+			"commandName": "/usr/adic/TSM/bin/fsfileinfo",
+			"commandStatus": "completed",
+			"statusText": "Command Successful."
+		}
+	],
+	"footer": {
+		"returnCode": 0,
+		"localDateISOEnd": "2016-03-23T00:15:37",
+		"localDateEnd": "2016-03-23",
+		"localTimeEnd": "00:15:37",
+		"localDayOfWeekEnd": 3,
+		"gmtDateISOEnd": "2016-03-23T07:15:37Z",
+		"gmtDateEnd": "2016-03-23",
+		"gmtTimeEnd": "07:15:37",
+		"gmtDayOfWeekEnd": 3,
+		"elapsedTimeInSeconds": "0.0212"
+	}
+}

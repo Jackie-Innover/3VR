@@ -1,0 +1,72 @@
+https://10.10.1.223/sws/v2/media/fsmedinfo?media=000001&format=json
+
+{
+	"header": {
+		"commandName": "fsmedinfo",
+		"commandLine": "/usr/adic/TSM/bin/fsmedinfo -F json 000001",
+		"commandDescription": "Generate a report on media",
+		"localDateISO": "2016-03-23T00:16:23",
+		"localDate": "2016-03-23",
+		"localTime": "00:16:23",
+		"localDayOfWeek": 3,
+		"gmtDateISO": "2016-03-23T07:16:23Z",
+		"gmtDate": "2016-03-23",
+		"gmtTime": "07:16:23",
+		"gmtDayOfWeek": 3
+	},
+	"medias": [
+		{
+			"mediaId": "000001",
+			"copy": 1,
+			"mediaType": "LTO",
+			"storageArea": "VolSub",
+			"classId": "managed_files",
+			"lastAccessed": "02-mar-2016 21:33:58",
+			"mediaStatus": "AVAIL",
+			"writeProtect": "N",
+			"markStatus": "UNMARKED",
+			"mediumLocation": "SLOT/BIN",
+			"formatted": "Y",
+			"formatType": "ANTF",
+			"numberOfSegments": 401,
+			"externalLocation": "N/A",
+			"bytesUsed": 2849643954626,
+			"spaceRemaining": 0,
+			"percentUsed": "100.00",
+			"suspectCount": 0,
+			"mountCount": 437,
+			"mediaClass": "F0_LTO_MIGRATE",
+			"currentState": "On-line",
+			"assignment": "Free",
+			"actionState": "None",
+			"locationState": "Archive",
+			"currentArchive": "Archive1",
+			"pendingArchive": "N/A",
+			"importDate": "11-feb-2015 17:13:38",
+			"moveCount": 874
+		}
+	],
+	"statuses": [
+		{
+			"statusCode": "FS0000",
+			"statusNumber": 0,
+			"dayOfMonth": 23,
+			"requestId": "00881",
+			"commandName": "/usr/adic/TSM/bin/fsmedinfo",
+			"commandStatus": "completed",
+			"statusText": "Command Successful."
+		}
+	],
+	"footer": {
+		"returnCode": 0,
+		"localDateISOEnd": "2016-03-23T00:16:23",
+		"localDateEnd": "2016-03-23",
+		"localTimeEnd": "00:16:23",
+		"localDayOfWeekEnd": 3,
+		"gmtDateISOEnd": "2016-03-23T07:16:23Z",
+		"gmtDateEnd": "2016-03-23",
+		"gmtTimeEnd": "07:16:23",
+		"gmtDayOfWeekEnd": 3,
+		"elapsedTimeInSeconds": "0.0003"
+	}
+}

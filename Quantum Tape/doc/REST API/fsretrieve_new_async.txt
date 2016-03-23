@@ -1,0 +1,12 @@
+https://10.10.1.223/sws/v2/file/fsretrieve/new?file=/stornext/3VR_archive/Managed/emy2.tar&mode=sync&format=json&newfile=/stornext/3VR_archive/UnManaged/Jackie007.tar
+
+https://10.10.1.223/sws/v2/file/fsretrieve/new?file=/stornext/3VR_archive/Managed/emy2.tar&mode=async&format=json&newfile=/stornext/3VR_archive/UnManaged/Jackie007.tar
+{
+  "job" : "15",
+  "message" : "Job has been successfully submitted."
+}
+
+
+https://10.10.1.223/sws/v2/job/info?job=15&format=json
+
+{"jobList":[{"jobInfo":{"job":"15","state":"ERROR","exitcode":2,"datecompleted":"2016-03-23 01:01:11"}}]}
