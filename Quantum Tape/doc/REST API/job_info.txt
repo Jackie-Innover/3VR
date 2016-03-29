@@ -1,0 +1,91 @@
+https://10.10.1.223/sws/v2/job/info?job=27&format=json
+
+{
+	"jobList":
+		[
+			{
+				"jobInfo":
+					{
+						"job":"28",
+						"state":"RUNNING"
+					}
+			}
+		]
+}
+
+
+{
+	"jobList":
+	[
+		{
+			"jobInfo":
+				{
+					"job":"27",
+					"state":"COMPLETED",
+					"exitcode":0,
+					"datecompleted":"2016-03-28 19:09:53"
+				},
+			"response":
+			{
+				"header":
+				{
+					"commandName":"fsretrieve",
+					"commandLine":"/usr/adic/TSM/bin/fsretrieve /stornext/3VR_archive/Managed/emy2.tar -n /stornext/3VR_archive/UnManaged/Jackie007.tar -F json",
+					"commandDescription":"Retrieve files from media and place on disk",
+					"localDateISO":"2016-03-28T19:07:16",
+					"localDate":"2016-03-28",
+					"localTime":"19:07:16",
+					"localDayOfWeek":1,
+					"gmtDateISO":"2016-03-29T02:07:16Z",
+					"gmtDate":"2016-03-29",
+					"gmtTime":"02:07:16",
+					"gmtDayOfWeek":1
+				},
+				"statuses":
+					[
+						{
+							"statusCode":"FS0589",
+							"statusNumber":589,
+							"dayOfMonth":28,
+							"requestId":"01599",
+							"commandName":"/usr/adic/TSM/bin/fsretrieve",
+							"commandStatus":"interim",
+							"statusText":"Tertiary Manager software request received."
+						}
+						,
+						{
+							"statusCode":"FS0347",
+							"statusNumber":347,
+							"dayOfMonth":28,
+							"requestId":"01599",
+							"commandName":"fsretrieve",
+							"commandStatus":"interim",
+							"statusText":"File /stornext/3VR_archive/Managed/emy2.tar has been retrieved."
+						},
+						{
+							"statusCode":"FS0390",
+							"statusNumber":390,
+							"dayOfMonth":28,
+							"requestId":"01599",
+							"commandName":"fsretrieve",
+							"commandStatus":"completed",
+							"statusText":"1 out of 1 retrieves were successful."
+						}
+					],
+					"footer":
+						{
+							"returnCode":0,
+							"localDateISOEnd":"2016-03-28T19:09:53",
+							"localDateEnd":"2016-03-28",
+							"localTimeEnd":"19:09:53",
+							"localDayOfWeekEnd":1,
+							"gmtDateISOEnd":"2016-03-29T02:09:53Z",
+							"gmtDateEnd":"2016-03-29",
+							"gmtTimeEnd":"02:09:53",
+							"gmtDayOfWeekEnd":1,
+							"elapsedTimeInSeconds":"157.0322"
+						}
+			}
+		}
+	]
+}

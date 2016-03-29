@@ -1,0 +1,6 @@
+https://10.10.1.223/sws/v2/file/fsretrieve/new?file=/stornext/3VR_archive/Managed/emy2.tar&mode=async&format=json&newfile=/stornext/3VR_archive/UnManaged/Jackie007.tar
+
+{
+  "job" : "27",
+  "message" : "Job has been successfully submitted."
+}
