@@ -6,20 +6,6 @@ using Newtonsoft.Json;
 
 namespace TapeRestApi.Models
 {
-    //public class FileInfoItem
-    //{
-    //    public string FileName { get; set; }
-    //    public string NewFileName { get; set; }
-    //    public string Location { get; set; }
-    //    public TapeMedia[] Medias { get; set; }
-    //}
-
-    //public class TapeMedia
-    //{
-    //    public int MediaId { get; set; }
-    //    public string MediaName { get; set; }
-    //    public int Copy { get; set; }
-    //}
 
     public class FileInfoResponse
     {
@@ -54,10 +40,10 @@ namespace TapeRestApi.Models
     {
         [JsonProperty("statusCode")]
         public string StatusCode { get; set; }
+
         [JsonProperty("statusNumber")]
         public int StatusNumber { get; set; }
         [JsonProperty("statusText")]
         public string StatusText { get; set; }
     }
-
 }

@@ -1,13 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Threading;
-using System.Threading.Tasks;
 using Microsoft.AspNet.Mvc;
 using Microsoft.AspNet.Mvc.Rendering;
-using Microsoft.AspNet.Mvc.ViewFeatures;
-using Newtonsoft.Json;
 using TapeRestApi.Config;
 using TapeRestApi.Helpers;
 using TapeRestApi.Models;
@@ -46,12 +42,32 @@ namespace TapeRestApi.Controllers
         }
 
         [HttpGet("fsretrieve/new")]
-        public FileRetrieveResponse Get(string file, string newFile, string userName, string password, string format)
+        public object Get(string file, string mode, string newFile, string userName, string password, string format)
         {
+            CommandMode commandMode;
+            if (!Enum.TryParse(mode, true, out commandMode))
+            {
+                commandMode = CommandMode.Sync;
+            }
+
             FileInfo fileInfo = new FileInfo(file);
             string managedFilePath = Path.Combine(GlobalSetting.ManagedFolderPath, fileInfo.Directory.Name, fileInfo.Name);
             string unmanagedCacheFilePath = Path.Combine(GlobalSetting.UnManagedCacheFolderPath, fileInfo.Name);
 
+            //MoveFile(unmanagedCacheFilePath, managedFilePath);
+
+            switch (commandMode)
+            {
+                case CommandMode.Async:
+                    return AsyncRetrieveFile(managedFilePath, unmanagedCacheFilePath);
+                default:
+                    return SyncRetrieveFile(managedFilePath, unmanagedCacheFilePath);
+            }
+
+        }
+
+        private static void MoveFile(string unmanagedCacheFilePath, string managedFilePath)
+        {
             if (System.IO.File.Exists(unmanagedCacheFilePath))
             {
                 System.IO.File.Delete(unmanagedCacheFilePath);
@@ -65,7 +81,24 @@ namespace TapeRestApi.Controllers
             {
                 Console.WriteLine(ex);
             }
-            
+        }
+
+        private JobResponse AsyncRetrieveFile(string managedFilePath, string unmanagedCacheFilePath)
+        {
+            /**
+            *   1. update entry in async retrieve xml file (change jobid, and state).
+            *   2. return job response
+            *   3. after 1 min, move file to unmanaged cache folder.
+            *   4. change job state to completed.
+            */
+
+            return JobHelper.AddJob(managedFilePath, unmanagedCacheFilePath);
+
+        }
+
+        private FileRetrieveResponse SyncRetrieveFile(string managedFilePath, string unmanagedCacheFilePath)
+        {
+
             Thread.Sleep(3000);
 
             Status status = new Status
@@ -74,7 +107,7 @@ namespace TapeRestApi.Controllers
                 StatusText = "retrieve success"
             };
 
-            FileRetrieveResponse response=new FileRetrieveResponse
+            FileRetrieveResponse response = new FileRetrieveResponse
             {
                 Statuses = new List<Status>
                 {
