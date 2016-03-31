@@ -25,7 +25,7 @@ namespace TapeRestApi.Helpers
 
                                                           if (item.Value.State == JobState.Completed)
                                                           {
-                                                              if (minuteSpan >= 5)
+                                                              if (minuteSpan >= 30)
                                                               {
                                                                   removeJobIds.Add(item.Key);
                                                               }

@@ -54,7 +54,7 @@ namespace TapeRestApi.Controllers
             string managedFilePath = Path.Combine(GlobalSetting.ManagedFolderPath, fileInfo.Directory.Name, fileInfo.Name);
             string unmanagedCacheFilePath = Path.Combine(GlobalSetting.UnManagedCacheFolderPath, fileInfo.Name);
 
-            //MoveFile(unmanagedCacheFilePath, managedFilePath);
+            MoveFile(unmanagedCacheFilePath, managedFilePath);
 
             switch (commandMode)
             {
@@ -68,9 +68,15 @@ namespace TapeRestApi.Controllers
 
         private static void MoveFile(string unmanagedCacheFilePath, string managedFilePath)
         {
+
             if (System.IO.File.Exists(unmanagedCacheFilePath))
             {
                 System.IO.File.Delete(unmanagedCacheFilePath);
+            }
+
+            if (!Directory.Exists(GlobalSetting.UnManagedCacheFolderPath))
+            {
+                Directory.CreateDirectory(GlobalSetting.UnManagedCacheFolderPath);
             }
 
             try
@@ -85,13 +91,6 @@ namespace TapeRestApi.Controllers
 
         private JobResponse AsyncRetrieveFile(string managedFilePath, string unmanagedCacheFilePath)
         {
-            /**
-            *   1. update entry in async retrieve xml file (change jobid, and state).
-            *   2. return job response
-            *   3. after 1 min, move file to unmanaged cache folder.
-            *   4. change job state to completed.
-            */
-
             return JobHelper.AddJob(managedFilePath, unmanagedCacheFilePath);
 
         }
