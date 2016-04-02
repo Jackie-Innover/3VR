@@ -1,0 +1,131 @@
+{"jobList":[{"jobInfo":{"job":"33","state":"ERROR","exitcode":1,"datecompleted":"2016-03-30 04:07:34"},"response":{"header":{"commandName":"fsretrieve","commandLine":"/usr/adic/TSM/bin/fsretrieve /stornext/3VR_archive/Managed/emy.tar -n /stornext/3VR_archive/UnManaged/Jackie004.tar -F json","commandDescription":"Retrieve files from media and place on disk","localDateISO":"2016-03-30T04:07:34","localDate":"2016-03-30","localTime":"04:07:34","localDayOfWeek":3,"gmtDateISO":"2016-03-30T11:07:34Z","gmtDate":"2016-03-30","gmtTime":"11:07:34","gmtDayOfWeek":3},"statuses":[{"statusCode":"FS0650","statusNumber":650,"dayOfMonth":30,"requestId":"01780","commandName":"/usr/adic/TSM/bin/fsretrieve","commandStatus":"interim","statusText":"/stornext/3VR_archive/UnManaged/Jackie004.tar already exists, remove or rename then retry"},{"statusCode":"FS0086","statusNumber":86,"dayOfMonth":30,"requestId":"01780","commandName":"/usr/adic/TSM/bin/fsretrieve","commandStatus":"failed","statusText":"Error processing command."}],"footer":{"returnCode":1,"localDateISOEnd":"2016-03-30T04:07:34","localDateEnd":"2016-03-30","localTimeEnd":"04:07:34","localDayOfWeekEnd":3,"gmtDateISOEnd":"2016-03-30T11:07:34Z","gmtDateEnd":"2016-03-30","gmtTimeEnd":"11:07:34","gmtDayOfWeekEnd":3,"elapsedTimeInSeconds":"0.0001"}}}]}
+
+
+{"jobList":[{"jobInfo":{"job":"34","state":"ERROR","exitcode":1,"datecompleted":"2016-03-30 04:07:39"},"response":{"header":{"commandName":"fsretrieve","commandLine":"/usr/adic/TSM/bin/fsretrieve /stornext/3VR_archive/Managed/emy.tar -n /stornext/3VR_archive/UnManaged/Jackie004.tar -F json","commandDescription":"Retrieve files from media and place on disk","localDateISO":"2016-03-30T04:07:39","localDate":"2016-03-30","localTime":"04:07:39","localDayOfWeek":3,"gmtDateISO":"2016-03-30T11:07:39Z","gmtDate":"2016-03-30","gmtTime":"11:07:39","gmtDayOfWeek":3},"statuses":[{"statusCode":"FS0650","statusNumber":650,"dayOfMonth":30,"requestId":"01781","commandName":"/usr/adic/TSM/bin/fsretrieve","commandStatus":"interim","statusText":"/stornext/3VR_archive/UnManaged/Jackie004.tar already exists, remove or rename then retry"},{"statusCode":"FS0086","statusNumber":86,"dayOfMonth":30,"requestId":"01781","commandName":"/usr/adic/TSM/bin/fsretrieve","commandStatus":"failed","statusText":"Error processing command."}],"footer":{"returnCode":1,"localDateISOEnd":"2016-03-30T04:07:39","localDateEnd":"2016-03-30","localTimeEnd":"04:07:39","localDayOfWeekEnd":3,"gmtDateISOEnd":"2016-03-30T11:07:39Z","gmtDateEnd":"2016-03-30","gmtTimeEnd":"11:07:39","gmtDayOfWeekEnd":3,"elapsedTimeInSeconds":"0.0000"}}}]}
+
+
+
+
+{
+    "jobList": [
+        {
+            "jobInfo": {
+                "job": "33", 
+                "state": "ERROR", 
+                "exitcode": 1, 
+                "datecompleted": "2016-03-30 04:07:34"
+            }, 
+            "response": {
+                "header": {
+                    "commandName": "fsretrieve", 
+                    "commandLine": "/usr/adic/TSM/bin/fsretrieve /stornext/3VR_archive/Managed/emy.tar -n /stornext/3VR_archive/UnManaged/Jackie004.tar -F json", 
+                    "commandDescription": "Retrieve files from media and place on disk", 
+                    "localDateISO": "2016-03-30T04:07:34", 
+                    "localDate": "2016-03-30", 
+                    "localTime": "04:07:34", 
+                    "localDayOfWeek": 3, 
+                    "gmtDateISO": "2016-03-30T11:07:34Z", 
+                    "gmtDate": "2016-03-30", 
+                    "gmtTime": "11:07:34", 
+                    "gmtDayOfWeek": 3
+                }, 
+                "statuses": [
+                    {
+                        "statusCode": "FS0650", 
+                        "statusNumber": 650, 
+                        "dayOfMonth": 30, 
+                        "requestId": "01780", 
+                        "commandName": "/usr/adic/TSM/bin/fsretrieve", 
+                        "commandStatus": "interim", 
+                        "statusText": "/stornext/3VR_archive/UnManaged/Jackie004.tar already exists, remove or rename then retry"
+                    }, 
+                    {
+                        "statusCode": "FS0086", 
+                        "statusNumber": 86, 
+                        "dayOfMonth": 30, 
+                        "requestId": "01780", 
+                        "commandName": "/usr/adic/TSM/bin/fsretrieve", 
+                        "commandStatus": "failed", 
+                        "statusText": "Error processing command."
+                    }
+                ], 
+                "footer": {
+                    "returnCode": 1, 
+                    "localDateISOEnd": "2016-03-30T04:07:34", 
+                    "localDateEnd": "2016-03-30", 
+                    "localTimeEnd": "04:07:34", 
+                    "localDayOfWeekEnd": 3, 
+                    "gmtDateISOEnd": "2016-03-30T11:07:34Z", 
+                    "gmtDateEnd": "2016-03-30", 
+                    "gmtTimeEnd": "11:07:34", 
+                    "gmtDayOfWeekEnd": 3, 
+                    "elapsedTimeInSeconds": "0.0001"
+                }
+            }
+        }
+    ]
+}
+
+
+
+
+
+{
+    "jobList": [
+        {
+            "jobInfo": {
+                "job": "34", 
+                "state": "ERROR", 
+                "exitcode": 1, 
+                "datecompleted": "2016-03-30 04:07:39"
+            }, 
+            "response": {
+                "header": {
+                    "commandName": "fsretrieve", 
+                    "commandLine": "/usr/adic/TSM/bin/fsretrieve /stornext/3VR_archive/Managed/emy.tar -n /stornext/3VR_archive/UnManaged/Jackie004.tar -F json", 
+                    "commandDescription": "Retrieve files from media and place on disk", 
+                    "localDateISO": "2016-03-30T04:07:39", 
+                    "localDate": "2016-03-30", 
+                    "localTime": "04:07:39", 
+                    "localDayOfWeek": 3, 
+                    "gmtDateISO": "2016-03-30T11:07:39Z", 
+                    "gmtDate": "2016-03-30", 
+                    "gmtTime": "11:07:39", 
+                    "gmtDayOfWeek": 3
+                }, 
+                "statuses": [
+                    {
+                        "statusCode": "FS0650", 
+                        "statusNumber": 650, 
+                        "dayOfMonth": 30, 
+                        "requestId": "01781", 
+                        "commandName": "/usr/adic/TSM/bin/fsretrieve", 
+                        "commandStatus": "interim", 
+                        "statusText": "/stornext/3VR_archive/UnManaged/Jackie004.tar already exists, remove or rename then retry"
+                    }, 
+                    {
+                        "statusCode": "FS0086", 
+                        "statusNumber": 86, 
+                        "dayOfMonth": 30, 
+                        "requestId": "01781", 
+                        "commandName": "/usr/adic/TSM/bin/fsretrieve", 
+                        "commandStatus": "failed", 
+                        "statusText": "Error processing command."
+                    }
+                ], 
+                "footer": {
+                    "returnCode": 1, 
+                    "localDateISOEnd": "2016-03-30T04:07:39", 
+                    "localDateEnd": "2016-03-30", 
+                    "localTimeEnd": "04:07:39", 
+                    "localDayOfWeekEnd": 3, 
+                    "gmtDateISOEnd": "2016-03-30T11:07:39Z", 
+                    "gmtDateEnd": "2016-03-30", 
+                    "gmtTimeEnd": "11:07:39", 
+                    "gmtDayOfWeekEnd": 3, 
+                    "elapsedTimeInSeconds": "0.0000"
+                }
+            }
+        }
+    ]
+}

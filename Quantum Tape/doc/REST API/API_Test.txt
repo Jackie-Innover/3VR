@@ -1,0 +1,103 @@
+
+Vault:
+
+http://localhost/api/file/fsfileinfo?file=abc.tar&format=json&username=jackie&password=jackie
+
+{
+    "fileInfos": [
+        {
+            "fileName": "abc.tar", 
+            "location": "Vault", 
+            "medias": [
+                {
+                    "mediaId": "000000", 
+                    "copy": 1
+                }
+            ]
+        }
+    ]
+}
+
+
+http://localhost/api/media/fsmedinfo?media=000000&format=json
+
+{
+    "medias": [
+        {
+            "mediaId": "000000", 
+            "locationState": "Archive", 
+            "currentArchive": "Vault1"
+        }
+    ], 
+    "statuses": [
+        {
+            "statusCode": "FS0000", 
+            "statusNumber": 0, 
+            "statusText": "Command Successful."
+        }
+    ]
+}
+
+http://localhost/api/archive/vsarchiveqry?archive=Vault1&format=json
+
+{
+    "archives": [
+        {
+            "archiveName": "Vault1", 
+            "archiveType": "Stage"
+        }
+    ]
+}
+
+
+Tape:
+2016_02_09\894b8eda-8e28-45a1-9d68-100000000001_2016_02_09_04_Pole-1.00.tar
+
+http://localhost/api/file/fsfileinfo?file=2016_02_09\894b8eda-8e28-45a1-9d68-100000000001_2016_02_09_04_Pole-1.00.tar&format=json&username=jackie&password=jackie
+
+{
+    "fileInfos": [
+        {
+            "fileName": "2016_02_09\\894b8eda-8e28-45a1-9d68-100000000001_2016_02_09_04_Pole-1.00.tar", 
+            "location": "Archive", 
+            "medias": [
+                {
+                    "mediaId": "000001", 
+                    "copy": 1
+                }
+            ]
+        }
+    ]
+}
+
+http://localhost/api/media/fsmedinfo?media=000001&format=json
+
+{
+    "medias": [
+        {
+            "mediaId": "000001", 
+            "locationState": "Archive", 
+            "currentArchive": "Archive1"
+        }
+    ], 
+    "statuses": [
+        {
+            "statusCode": "FS0000", 
+            "statusNumber": 0, 
+            "statusText": "Command Successful."
+        }
+    ]
+}
+
+
+http://localhost/api/archive/vsarchiveqry?archive=Archive1&format=json
+
+{
+    "archives": [
+        {
+            "archiveName": "Archive1", 
+            "archiveType": "SCSI"
+        }
+    ]
+}
+
