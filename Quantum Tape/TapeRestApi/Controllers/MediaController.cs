@@ -20,7 +20,7 @@ namespace TapeRestApi.Controllers
         }
 
         [HttpGet("fsmedinfo")]
-        public MediaInfoResponse Get(string media, string format)
+        public MediaInfoResponse Get(string media, string format, string username, string password)
         {
             string currentArchive = media == "000000" ? "Vault1" : "Archive1";
 

@@ -26,7 +26,7 @@ namespace TapeRestApi.Controllers
         }
 
         [HttpGet("info")]
-        public object Get(int job, string format)
+        public object Get(int job, string format, string username, string password)
         {
             JobInfo jobInfo = JobHelper.GetJobInfo(job);
             JobListResponse jobListResponse = new JobListResponse();

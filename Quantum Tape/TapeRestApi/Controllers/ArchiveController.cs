@@ -20,7 +20,7 @@ namespace TapeRestApi.Controllers
         }
 
         [HttpGet("vsarchiveqry")]
-        public ArchiveResponse Get(string archive, string format)
+        public ArchiveResponse Get(string archive, string format, string username, string password)
         {
 
             ArchiveResponse archiveResponse = new ArchiveResponse
