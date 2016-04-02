@@ -33,7 +33,7 @@ namespace TapeRestApi.Controllers
 
             switch (jobInfo.State)
             {
-                case JobState.Running:
+                case JobState.RUNNING:
                     {
                         JobInfoResponse jobInfoResponse = new JobInfoResponse { JobInfo = jobInfo };
                         jobListResponse.JobList.Add(jobInfoResponse);
@@ -41,11 +41,11 @@ namespace TapeRestApi.Controllers
 
                     //return "{\"jobList\":[{\"jobInfo\":{\"job\":\"28\",\"state\":\"RUNNING\"}}]}";
                     return jobListResponse;
-                case JobState.Error:
+                case JobState.ERROR:
                     //TODO: return error response
                     return new {};
 
-                case JobState.Completed:
+                case JobState.COMPLETED:
                     {
                         Response response = new Response
                         {

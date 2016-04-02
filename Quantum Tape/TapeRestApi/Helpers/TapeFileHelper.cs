@@ -51,7 +51,7 @@ namespace TapeRestApi.Helpers
                 {
                     new Media
                     {
-                        MediaId = "tape_demo",
+                        MediaId = fileLocation == "Archive" ? "000001" : "000000",
                         Copy = 1
                     }
                 }

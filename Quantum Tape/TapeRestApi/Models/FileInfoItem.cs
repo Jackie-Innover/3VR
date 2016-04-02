@@ -18,6 +18,7 @@ namespace TapeRestApi.Models
         [JsonProperty("statuses")]
         public List<Status> Statuses { get; set; }
     }
+
     public class FsFileInfo
     {
         [JsonProperty("fileName")]

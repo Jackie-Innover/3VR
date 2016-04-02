@@ -14,9 +14,9 @@ namespace TapeRestApi.Models
 
     public enum JobState
     {
-        Pending,
-        Error,
-        Running,
-        Completed
+        PENDING,
+        ERROR,
+        RUNNING,
+        COMPLETED
     }
 }

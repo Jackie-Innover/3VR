@@ -23,7 +23,7 @@ namespace TapeRestApi.Helpers
                                                       {
                                                           double minuteSpan = (DateTime.Now - item.Value.BeginDateTime).TotalMinutes;
 
-                                                          if (item.Value.State == JobState.Completed)
+                                                          if (item.Value.State == JobState.COMPLETED)
                                                           {
                                                               if (minuteSpan >= 30)
                                                               {
@@ -37,7 +37,7 @@ namespace TapeRestApi.Helpers
                                                                   continue;
                                                               }
 
-                                                              item.Value.State = JobState.Completed;
+                                                              item.Value.State = JobState.COMPLETED;
                                                               item.Value.DateCompleted = DateTime.Now;
                                                               item.Value.ExitCode = 0;
                                                           }
@@ -58,7 +58,7 @@ namespace TapeRestApi.Helpers
             Jobs.TryAdd(jobId, new JobInfo
             {
                 JobId = jobId,
-                State = JobState.Running,
+                State = JobState.RUNNING,
                 BeginDateTime = DateTime.Now,
                 SourceFilePath = managedFilePath
             });
