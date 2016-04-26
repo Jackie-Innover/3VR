@@ -26,9 +26,9 @@ namespace TapeRestApi.Controllers
         }
 
         [HttpGet("fsfileinfo")]
-        public FileInfoResponse Get(string file, string userName, string password, string format)
+        public FileInfoResponse Get(string file, string userName, string password, string format, bool archiveInfo)
         {
-            FsFileInfo fileInfo = TapeFileHelper.GetFileInfoItem(file);
+            FsFileInfo fileInfo = TapeFileHelper.GetFileInfoItem(file, archiveInfo);
 
             FileInfoResponse response = new FileInfoResponse
             {
@@ -122,7 +122,7 @@ namespace TapeRestApi.Controllers
         public string Get(int id)
         {
             return "value";
-        }
+        }     
 
         // POST api/values
         [HttpPost]
@@ -140,6 +140,6 @@ namespace TapeRestApi.Controllers
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
-        }
+        }        
     }
 }

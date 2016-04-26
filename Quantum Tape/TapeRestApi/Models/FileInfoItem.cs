@@ -33,8 +33,15 @@ namespace TapeRestApi.Models
     {
         [JsonProperty("mediaId")]
         public string MediaId { get; set; }
+
         [JsonProperty("copy")]
         public int Copy { get; set; }
+
+        [JsonProperty("currentArchiveName")]
+        public string CurrentArchiveName { get; set; }
+
+        [JsonProperty("currentArchiveType")]
+        public string CurrentArchiveType { get; set; }
     }
 
     public class Status

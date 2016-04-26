@@ -38,4 +38,28 @@ namespace TapeRestApi.Models
         [JsonConverter(typeof(StringEnumConverter))]
         public ArchiveType Type { get; set; }
     }
+
+    public class FullArchiveInfo
+    {
+        [JsonProperty("location")]
+        public string Location { get; set; }
+
+        [JsonProperty("actionRequired")]
+        public string ActionRequired { get; set; }
+
+        [JsonProperty("currentArchiveName")]
+        public string CurrentArchiveName { get; set; }
+
+        [JsonProperty("currentArchiveType")]
+        public string CurrentArchiveType { get; set; }
+
+        [JsonProperty("pendingArchiveName")]
+        public string PendingArchiveName { get; set; }
+
+        [JsonProperty("pendingArchiveType")]
+        public string PendingArchiveType { get; set; }
+
+        [JsonProperty("vaulted")]
+        public bool Vaulted { get; set; }
+    }
 }

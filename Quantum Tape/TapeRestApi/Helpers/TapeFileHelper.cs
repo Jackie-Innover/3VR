@@ -37,7 +37,7 @@ namespace TapeRestApi.Helpers
             return fileLocation;
         }
 
-        public static FsFileInfo GetFileInfoItem(string filePath)
+        public static FsFileInfo GetFileInfoItem(string filePath, bool archiveInfo)
         {
             string absoluteFilePath = getAbsoluteFilePath(filePath);
             string fileLocation = getFileLocation(absoluteFilePath);
@@ -47,17 +47,20 @@ namespace TapeRestApi.Helpers
                 FileName = filePath,
                 //Location = "Disk AND Archive",
                 Location = fileLocation,
+
                 Medias = new List<Media>
                 {
-                    new Media
+                    new Media()
                     {
                         MediaId = fileLocation == "Archive" ? "000001" : "000000",
-                        Copy = 1
+                        Copy = 1,
+                        CurrentArchiveName = fileLocation + 1,
+                        CurrentArchiveType = fileLocation == "Archive" ? "SCSI" : "Stage",
                     }
                 }
             };
 
             return fileInfo;
-        }
+        }        
     }
 }
